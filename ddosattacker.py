@@ -27,9 +27,9 @@ def mainprogram():
     			tarih = time.gmtime(0)
     			saat = time.localtime()
 
-    			print("[+] tarih : "+tarih.tm_year+"/"+tarih.tm_mon+"/"+tarih.tm_day+" saat : "+saat.tm_hour+" "+saat.tm_min+" "+saat.tm_sec+" paket gönderildi.")
+    			print("[+] date : "+tarih.tm_year+"/"+tarih.tm_mon+"/"+tarih.tm_day+" saat : "+saat.tm_hour+" "+saat.tm_min+" "+saat.tm_sec+" packet sent.")
     		else:
-    			print("[-] başarısız...")
+    			print("[-] unsuccesful...")
 
     elif(answer == "2"):
     	exit()
